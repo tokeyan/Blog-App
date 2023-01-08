@@ -1,0 +1,32 @@
+.header{
+    margin-top: 30px;
+}
+
+.head-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small{
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    font-size: 25px;
+}
+
+.big{
+    position: absolute;
+    top: 33%;
+    right: 30%;
+    font-size: 50px;
+}
+
+.headerimg{
+    width: 100%;
+    height: 475px;
+    object-fit: cover;    
+}
+
+
+

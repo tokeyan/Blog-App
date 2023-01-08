@@ -1,0 +1,93 @@
+.setting{
+    display:flex;
+}
+
+.settingWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settingUpdate{
+   font-size: 20px;
+   color: rgb(95, 19, 19);
+}
+
+.settingDelete{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingPP img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.settingPP i {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 28, 161);
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#settingFile{
+    display: none;
+}
+
+.settingForm label{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.settingForm input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    margin: 10px 0;
+    height: 20px;
+}
+
+.settingBtn{
+    align-self: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+
